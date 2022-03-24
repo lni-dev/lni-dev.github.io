@@ -41,6 +41,36 @@
 
 }
 
+.projects-dropdown-btn {
+    position: relative;
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+}
+
+.projects-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #4b0a77;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.projects-list {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.projects-dropdown-btn:hover .projects-dropdown {
+    display: block;
+}
+
+
+
 #top-buttons-container .button:hover {
     background-color: #2e0248;
 }
