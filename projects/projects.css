@@ -1,0 +1,32 @@
+#projects-site {
+    display: block;
+    padding: 20px;
+}
+
+#ps-container {
+    margin-top: 10px;
+    width: 100%;
+    background-color: inherit;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: start;
+}
+
+.project-overview {
+    display: block;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    background-color: #450257;
+    margin: 20px;
+    height: 300px;
+    width: 300px;
+
+}
+
+.ps-h {
+    padding: 10px;
+}
+
+.ps-p {
+    padding: 0px 10px 0px 10px;
+}

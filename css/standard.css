@@ -15,7 +15,7 @@ html {
 }
 
 a {
-
+    color: #d5d5d5;
 }
 
 .heading {
@@ -50,5 +50,10 @@ a {
     border-top-width: 1px;
     border-top-style: solid;
     border-top-color: var(--button-border-color);
+}
+
+.h1 {
+    font-size: 30px;
+    padding-bottom: 5px;
 }
 
