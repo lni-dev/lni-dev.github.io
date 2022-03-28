@@ -1,9 +1,17 @@
 #projects-site {
     display: block;
-    padding: 20px;
+    padding: 20px 0 0 0;
 }
 
-#ps-container {
+#prs-head {
+    font-size: 50px;
+    text-align: center;
+    padding: 75px;
+}
+
+/* Overviews */
+
+#ps-overviews {
     margin-top: 10px;
     width: 100%;
     background-color: inherit;
@@ -11,7 +19,7 @@
     display: flex;
     flex-wrap: wrap;
     grid-template-columns: auto auto auto;
-    justify-content: start;
+    justify-content: center;
 }
 
 .project-overview {
@@ -30,4 +38,41 @@
 
 .ps-p {
     padding: 0px 10px 0px 10px;
+}
+
+
+/* Projects */
+
+#ps-list {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 500px;
+}
+
+.project {
+    padding: 20px;
+    height: 500px;
+    background: linear-gradient(90deg, rgb(69, 2, 87) 0%, rgb(75, 10, 119) 75%, rgb(69, 2, 87) 100%);
+    display: block;
+}
+
+.project:nth-child(odd) {
+    background: linear-gradient(90deg, rgb(69, 2, 87) 0%, rgb(75, 10, 119) 15%, rgb(69, 2, 87) 100%);
+}
+
+#lapi {
+
+}
+
+#data {
+
+}
+
+#rt {
+
+}
+
+#mc-shader {
+
 }
