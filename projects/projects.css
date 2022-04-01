@@ -47,7 +47,8 @@ body {
     justify-content: center;
     flex-shrink: 10;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
-    background-color: var(--header-color);;
+    background-color: var(--header-color);
+    color: white;
     text-decoration: none;
     padding: 20px;
     height: 200px;
