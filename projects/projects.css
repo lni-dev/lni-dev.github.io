@@ -28,7 +28,6 @@ body {
 
     display: flex;
     flex-wrap: wrap;
-    grid-template-columns: auto auto auto;
     justify-content: center;
 }
 
@@ -64,34 +63,80 @@ body {
     /*background: linear-gradient(90deg, rgb(69, 2, 87) 0%, rgb(75, 10, 119) 75%, rgb(69, 2, 87) 100%);*/
     background: rgb(54,0,88);
     background: linear-gradient(90deg, rgba(54,0,88,1) 0%, rgb(39, 4, 77) 50%, rgba(101,0,134,1) 100%);
+    padding: 40px 0;
 }
 
 .project {
     display: block;
     position: relative;
-    margin-right: 200px;
+    margin-right: 50px;
     margin-left: 50px;
-    padding: 40px 20px 40px 20px;
+}
 
+.project h2 {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
 
+.project:before {
+    display: block;
+    content: " ";
+    margin-top: -100px;
+    height: 100px;
+    visibility: hidden;
+    pointer-events: none;
 }
 
 .project-buttons-list {
-    position: absolute;
-    right: 0;
-    bottom: 0;
 
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
-    align-items: flex-end;
+    justify-content: flex-end;
 
-    padding: 10px;
+    margin-top: 50px;
+    padding: 0px;
     background-color: transparent;
 }
 
 
 #lapi {
 
+}
+
+#lapi-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 50px;
+
+}
+
+.lapi-body-item {
+    box-sizing: border-box;
+    min-width: 30em;
+    width: 40%;
+    padding: 0px 20px;
+
+    display: flex;
+    justify-content: center;
+}
+
+#lapi-install {
+    text-align: left;
+    width: min-content;
+}
+
+#lapi-install .code {
+    margin: 20px 10px;
+}
+
+#lapi-description {
+    min-width: 200px;
+    width: min-content;
 }
 
 #data {
