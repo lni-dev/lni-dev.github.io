@@ -1,5 +1,6 @@
 :root {
     --header-color: #450257;
+    --header-hover-color: #2e0248;
     --page-background-color: #202124;
 }
 
@@ -28,7 +29,7 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #450257;
+    background-color: var(--header-color);
 }
 
 .github-btn {

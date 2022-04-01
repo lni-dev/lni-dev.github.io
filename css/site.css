@@ -81,7 +81,7 @@
 
 
 #top-buttons-container .button:hover {
-    background-color: #2e0248;
+    background-color: var(--header-hover-color);
 }
 
 #window {
