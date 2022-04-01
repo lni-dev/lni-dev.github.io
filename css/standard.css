@@ -7,6 +7,7 @@
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* width */
@@ -29,6 +30,32 @@
 ::-webkit-scrollbar-thumb:hover {
     background-color: #450257;
 }
+
+.github-btn {
+    box-sizing: border-box;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10px;
+    background-color: #161b22;
+    padding: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.github-btn span {
+    line-height: 1.0;
+
+}
+
+.github-btn span svg {
+    height: 32px;
+    fill: currentColor;
+
+}
+
+
 
 html {
     background-color: var(--page-background-color);

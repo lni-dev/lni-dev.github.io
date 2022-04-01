@@ -1,0 +1,20 @@
+.code {
+    margin: 5px 0px 5px 0px;
+    padding: 10px 20px 10px 20px;
+    display: inline-block;
+    background-color: #161718;
+    border: 2px solid #940d2a;
+    border-radius: 10px;
+}
+
+.code code{
+
+}
+
+.code-gradle-closure {
+    color: #d2a8ff;
+}
+
+.code-gradle-string {
+    color: #329b4c;
+}
