@@ -10,14 +10,14 @@ body {
     background-color: transparent;
 
     display: block;
-    padding: 20px 0 0 0;
 }
 
 #prs-head {
+    display: none;
     font-weight: 200;
     font-size: 50px;
     text-align: center;
-    padding: 35px 75px 100px 75px;
+    padding: 0 75px 200px 75px;
 }
 
 /* Overviews */
@@ -26,8 +26,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: inherit;
-    margin: 40px 40px 40px 40px;
+    margin: 0px 40px 50vh 40px;
     min-height: 500px;
 }
 
@@ -62,8 +61,8 @@ body {
 .project-overview:hover {
     content: "read more";
     height: 300px;
-    width: 300px;
-    padding: 70px 45px;
+    width: 250px;
+    padding: 70px 20px;
     background-color: var(--header-hover-color);
 }
 
