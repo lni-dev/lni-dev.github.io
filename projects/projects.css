@@ -6,9 +6,12 @@ body {
     background-position-x: center;
 }
 
+#container {
+    scroll-behavior: smooth;
+}
+
 #projects-site {
     background-color: transparent;
-
     display: block;
 }
 
