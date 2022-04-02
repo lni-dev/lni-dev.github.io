@@ -6,6 +6,7 @@
 
 *{
     font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -39,10 +40,16 @@
     align-items: center;
     column-gap: 10px;
     background-color: #161b22;
-    padding: 10px;
+    border: #161b22 2px solid;
+    padding: 8px;
     text-decoration: none;
     color: #ffffff;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.github-btn:hover {
+    background-color: transparent;
+    border: #161b22 2px solid;
 }
 
 .github-btn span {
@@ -53,7 +60,6 @@
 .github-btn span svg {
     height: 32px;
     fill: currentColor;
-
 }
 
 

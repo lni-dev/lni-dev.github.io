@@ -1,6 +1,6 @@
 .code {
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 300;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 400;
     margin: 5px 10px;
     padding: 10px 20px 10px 10px;
     display: inline-block;
@@ -16,7 +16,8 @@ cn {
 }
 
 .code code{
-    line-height: 1.4;
+    font-family: inherit;
+    line-height: 1.5;
 }
 
 .code-gradle-closure {
