@@ -57,6 +57,17 @@
     align-items: stretch;
 }
 
+@keyframes fadeIn2 {
+    0% {
+        opacity:0;
+        max-height: 0px;
+    }
+    100% {
+        opacity:1;
+        max-height: 400%;
+    }
+}
+
 .projects-dropdown {
     display: none;
     position: absolute;
@@ -66,6 +77,8 @@
     width: max-content;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 10;
+    overflow: hidden;
+
 }
 
 .projects-list {
@@ -76,6 +89,7 @@
 
 .projects-dropdown-btn:hover .projects-dropdown {
     display: block;
+    animation: 0.2s ease-in 0s fadeIn2;
 }
 
 
