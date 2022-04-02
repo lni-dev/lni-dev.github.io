@@ -5,17 +5,18 @@
     <meta charset="UTF-8">
 
     <!-- css -->
-    <link rel="stylesheet" href="/css/standard.css">
-    <link rel="stylesheet" href="/css/site.css">
-    <link rel="stylesheet" href="/css/code.css">
+    <link rel="stylesheet" href="../css/standard.css">
+    <link rel="stylesheet" href="../css/site.css">
+    <link rel="stylesheet" href="../css/code.css">
 
     <!-- projects css -->
-    <link rel="stylesheet" href="/projects/projects.css">
+    <link rel="stylesheet" href="../projects/projects.css">
 
    <!-- Roboto front -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
 <div id="container">
@@ -117,9 +118,8 @@
     mavenCentral()
 }
 <span class="code-gradle-closure">dependencies</span> {
-    implementation <span class="code-gradle-string">'io.github.lni-dev:lapi:<span id="lapi-version">[version]</span>'</span>
-}</code>
-</pre>
+    implementation <span class="code-string">'io.github.lni-dev:lapi:<span id="lapi-version">[version]</span>'</span>
+}</code></pre>
                                     <br>Replace [version] with the current version (see <a href="https://github.com/lni-dev/lapi" target="_blank">Github</a>).
                                 </div>
                             </div>
@@ -157,6 +157,19 @@
                                         <br><br>
                                         This Data object can then be parsed to a beautified JSON string.
                                     </p>
+                                    <pre class="code"><code>Data data = <span class="code-java-keyword">new</span> Data(<cn>2</cn>);
+data.add(<span class="code-string">"key1"</span>, <span class="code-string">"value1"</span>);
+data.add(<span class="code-string">"array"</span>, <span class="code-java-keyword">new</span> <span class="code-java-keyword">int</span>[]{<cn>1</cn>, <cn>2</cn>, <cn>2</cn>});
+System.out.println(data.getJsonString());</code></pre>
+                                    <pre class="code"><code>{
+  <span class="code-string">"key1"</span>: <span class="code-string">"value1"</span>,
+  <span class="code-string">"array"</span>: [
+    <cn>1</cn>,
+    <cn>2</cn>,
+    <cn>3</cn>
+  ]
+}</code></pre>
+
                                 </div>
                             </div>
 
@@ -169,7 +182,7 @@
     mavenCentral()
 }
 <span class="code-gradle-closure">dependencies</span> {
-    implementation <span class="code-gradle-string">'io.github.lni-dev:data:<span>[version]</span>'</span>
+    implementation <span class="code-string">'io.github.lni-dev:data:<span>[version]</span>'</span>
 }</code>
 </pre>
                                     <br>Replace [version] with the current version (see <a href="https://github.com/lni-dev/data" target="_blank">Github</a>).

@@ -1,4 +1,6 @@
 .code {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
     margin: 5px 10px;
     padding: 10px 20px 10px 10px;
     display: inline-block;
@@ -8,14 +10,23 @@
     text-align: left;
 }
 
-.code code{
+cn {
+    display: inline;
+    color: #5dccfc;
+}
 
+.code code{
+    line-height: 1.4;
 }
 
 .code-gradle-closure {
     color: #d2a8ff;
 }
 
-.code-gradle-string {
+.code-string {
     color: #329b4c;
+}
+
+.code-java-keyword {
+    color: #e09200;
 }
